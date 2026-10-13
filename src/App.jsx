@@ -13,8 +13,8 @@ export default function App() {
   return (
     <ProLayout>
       <Hero />
-      <Impact />
       <TestimonialSection story={testimonialStory} />
+      <Impact />
       <WhyOneAssure />
       <WhatToExpect />
       <Founder {...founderSection} />
